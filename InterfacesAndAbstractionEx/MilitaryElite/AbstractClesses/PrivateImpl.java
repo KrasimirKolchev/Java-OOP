@@ -1,0 +1,27 @@
+package InterfacesAndAbstractionEx.MilitaryElite.AbstractClesses;
+
+import InterfacesAndAbstractionEx.MilitaryElite.Interfaces.InterfacePrivate;
+
+public abstract class PrivateImpl extends SoldierImpl implements InterfacePrivate {
+    private double salary;
+
+    public PrivateImpl(int id, String firstName, String lastName, double salary) {
+        super(id, firstName, lastName);
+        this.setSalary(salary);
+    }
+
+    @Override
+    public double getSalary() {
+        return this.salary;
+    }
+
+    private void setSalary(double salary) {
+        this.salary = salary;
+    }
+
+    @Override
+    public String toString() {
+        return String.format("Name: %s %s Id: %d Salary: %.2f",
+                this.getFirstName(), this.getLastName(), this.getId(), this.getSalary());
+    }
+}
