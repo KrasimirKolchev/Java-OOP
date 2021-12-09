@@ -2,7 +2,7 @@
 
 Java OOP course: (https://softuni.bg/trainings/2351/java-oop-june-2019)
 <br/>
-[SoftUni Certificate](https://softuni.bg/certificates/certificates/converttoimage/69465?code=3fa65965)
+[SoftUni Certificate](https://softuni.bg/certificates/details/69465/3fa65965)
 <br/>
   * Working with Abstraction: <span> [Lab](https://github.com/KrasimirKolchev/Java-OOP/tree/master/WorkingWithAbstraction) <span/><span> [Exercises](https://github.com/KrasimirKolchev/Java-OOP/tree/master/WorkingWithAbstractionEx) <span/>
   * Inheritance: <span> [Lab](https://github.com/KrasimirKolchev/Java-OOP/tree/master/Inheritance) <span/><span> [Exercises](https://github.com/KrasimirKolchev/Java-OOP/tree/master/InheritanceEx) <span/>
